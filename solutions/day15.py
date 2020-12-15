@@ -4,9 +4,10 @@ data_file.close()
 
 def say_next(ages, last_number, i):
     new_number = 0
-    if ages[last_number]['occ'] > 1:
-        new_number = i - ages[last_number]['index']
-        ages[last_number]['index'] = i
+    ages_last = ages[last_number]
+    if ages_last['occ'] > 1:
+        new_number = i - ages_last['index']
+        ages_last['index'] = i
     if new_number in ages:
         ages[new_number]['occ'] += 1
     else:
@@ -23,3 +24,4 @@ def get_nth_number(numbers, n):
     return last_number
 
 print(get_nth_number(numbers, 2020))
+print(get_nth_number(numbers, 30000000))
