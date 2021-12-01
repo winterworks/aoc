@@ -1,7 +1,7 @@
 import re
 import numpy as np
 
-data_file = open('./data/data16')
+data_file = open('./2020/data/data16')
 data = data_file.read().split('\n\n')
 data_file.close()
 

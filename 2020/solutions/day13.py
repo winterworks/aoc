@@ -1,6 +1,6 @@
 import math
 
-data_file = open('./data/data13')
+data_file = open('./2020/data/data13')
 data = data_file.read().split('\n')
 data_file.close()
 

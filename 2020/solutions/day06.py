@@ -2,7 +2,7 @@ import re
 import numpy as np
 from itertools import groupby
 
-data_file = open('./data/data6')
+data_file = open('./2020/data/data06')
 data = list(map(lambda group: group.split('\n'), data_file.read().split('\n\n')))
 data_file.close()
 

@@ -1,6 +1,6 @@
 import re
 
-with open('./data/data4') as data_file:
+with open('./2020/data/data04') as data_file:
     data = list(data_file.read().split('\n\n'))
 
 required = ['byr:','iyr:','eyr:','hgt:','hcl:','ecl:','pid:']

@@ -1,4 +1,4 @@
-with open('./data/data3') as data_file:
+with open('./2020/data/data03') as data_file:
     data = list(data_file.read().split())
 
 def check_trees(grid, x, y, x_step, y_step):

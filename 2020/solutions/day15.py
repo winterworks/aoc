@@ -1,4 +1,4 @@
-data_file = open('./data/data15')
+data_file = open('./2020/data/data15')
 numbers = list(map(lambda x: int(x), data_file.read().split(',')))
 data_file.close()
 

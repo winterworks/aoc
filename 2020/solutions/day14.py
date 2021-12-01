@@ -1,7 +1,7 @@
 import re
 import itertools
 
-data_file = open('./data/data14')
+data_file = open('./2020/data/data14')
 data = data_file.read().split('\n')
 data_file.close()
 

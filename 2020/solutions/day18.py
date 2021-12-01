@@ -2,7 +2,7 @@ from sympy import *
 import re
 import functools
 
-data_file = open('./data/data18')
+data_file = open('./2020/data/data18')
 rows = data_file.read().split('\n')
 data_file.close()
 

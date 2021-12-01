@@ -1,4 +1,4 @@
-with open('./data/data1') as data_file:
+with open('./2020/data/data01') as data_file:
     data = sorted(map(int, data_file.read().split()))
 
 i = 1

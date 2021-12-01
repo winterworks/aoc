@@ -1,7 +1,7 @@
 import numpy as np
 import copy
 
-data_file = open('./data/data17')
+data_file = open('./2020/data/data17')
 data = list(map(lambda r: list(map(lambda c: 1 if c == '#' else 0, r)), data_file.read().split('\n')))
 data_file.close()
 

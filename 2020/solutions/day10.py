@@ -1,6 +1,6 @@
 import collections
 
-data_file = open('./data/data10')
+data_file = open('./2020/data/data10')
 adapters = sorted(map(int, data_file.read().split('\n')))
 data_file.close()
 

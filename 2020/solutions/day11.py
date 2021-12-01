@@ -2,7 +2,7 @@ import numpy as np
 from scipy import signal
 import math
 
-data_file = open('./data/data11')
+data_file = open('./2020/data/data11')
 data = np.array(list(map(lambda row: list(row), data_file.read().split('\n'))))
 data_file.close()
 

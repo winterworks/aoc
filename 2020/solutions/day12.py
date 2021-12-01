@@ -1,6 +1,6 @@
 import math
 
-data_file = open('./data/data12')
+data_file = open('./2020/data/data12')
 movements = list(map(lambda row: [row[:1], int(row[1:])], data_file.read().split('\n')))
 data_file.close()
 

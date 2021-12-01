@@ -1,6 +1,6 @@
 import copy
 
-data_file = open('./data/data8')
+data_file = open('./2020/data/data08')
 data = data_file.read().split('\n')
 data_file.close()
 
